@@ -6,7 +6,6 @@
 
  # Owl Park – Data Architecture
 **Real-Time Analytics Pipeline – Zoological-like Facility**
-## The Purpose of Data Engineering from a Kimball perspective
 
 ## The Setup
 
