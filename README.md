@@ -5,6 +5,7 @@
 - n8n
 - Claude/Copilot + Power BI mcp
 - Power BI
+<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/c9065d5b-199c-4382-a0f8-55349bf5d36a" />
 
  # Owl Park – Data Architecture
 **Real-Time Analytics Pipeline – Zoological-like Facility**
@@ -12,7 +13,7 @@
 ## The Setup
 
 ### Phase 1: Ingest (The n8n Engine & Webstore)
-Featuring 4 specialized ai agentic workflows running on schedules, and 
+Featuring 4 specialized ai agentic workflows running on schedules, and a <a href="https://portfolio2-main-phi.vercel.app/shop.html">live mock webstore</a> where you can make phony ticket purchases to an imaginary zoological facility for owls. Your "purchases" directly influence the dynamic pricing and consumer agents decisions!
 - One workflow generates dynamic pricing based on api data from <a href="https://openweathermap.org">https://openweathermap.org</a> and current sales
   - Features 2 ai agents, a price setting agent, and a specialized critic, who is instructed to make sure the price is fair
 - One workflow that purchase tickets on various dates. Number of tickets and type of ticket vary depending on pricing vs weather forecast from openweathermap.org.
@@ -42,4 +43,4 @@ A real-time pull extracts the raw data into Microsoft Fabric, where it is proces
 The modeled data is pushed live to presentation layers for analysis:
 * **Power BI Reports:** Live BI Team Dashboards for Executive Analytics.
 * **Claude + PBI MCP Server:** AI-Assisted Analysis using natural language.
-<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/c9065d5b-199c-4382-a0f8-55349bf5d36a" />
+
