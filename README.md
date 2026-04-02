@@ -2,8 +2,9 @@
 ### Technologies Used:
 - Supabase
 - Fabric (Dataflow Gen2, M, DataLake, Warehouse)
-- Power Query
 - n8n
+- Claude/Copilot + Power BI mcp
+- Power BI
 
  # Owl Park – Data Architecture
 **Real-Time Analytics Pipeline – Zoological-like Facility**
