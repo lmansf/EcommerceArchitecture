@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Showcasing the architecture of an ai generated dataset and fully working E-Commerce webstore with DW/BI capability. This version introduces the fully built data warehousing.
+Showcasing the Data Warehouse and BI of an ai generated dataset and fully working E-Commerce webstore project. This version introduces the fully built data warehousing for the first time.
 
 **"Why have a data pipeline at all?"** is an excellent question. SaaS like Microsoft Fabric cost money that scales with the size of a business, what's the benefit?
 
@@ -45,7 +45,7 @@ A real-time pull extracts the raw data into Microsoft Fabric, where it is proces
     * **Facts & Bridge (8 tables):** e.g., `facts_events`, `facts_products`, `facts_transactions`, `facts_Weather_Impact`, `facts_visit_dates`, etc.
     * **Query Groups (28 Queries):** Organized into subjects: Events (4), Products (4), Sellouts (4), Transactions (3), VisitingCalendar (5), Warehouse (4), and Weather (2).
 * **Storage Destinations:**
-    * **Data Warehouse (Real-Time):** OLAP for structured queries.
+    * **Data Warehouse (Real-Time):** OLAP for structured queries, STAR Schema design
     * **Data Lake (Every 24H):** Daily backup for historical archiving.
 
 ### Phase 4: Analyze
@@ -56,7 +56,7 @@ Based on the following categories:
 - Business Goals
 - n8n "Engine" maintenance (improving performance & tuning)
 
-### Phase 5: Take Action
+### Phase 5: Taking Action
 - n8n schedules optimized to maximize the number of requests in a given pay cycle.
 - dynamic price agent tuned to more aggressively push prices, but stays safely within a fair price range governed by a critic agent based on real world data points.
 
