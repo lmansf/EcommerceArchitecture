@@ -1,6 +1,9 @@
 # The E-Commerce Pipeline:
+
 ## Purpose
-Showcasing the architecture of an ai generated dataset and fully working E-Commerce webstore. This version introduces the professional data pipeline and BI capabilities for the first time.
+
+Showcasing the architecture of an ai generated dataset and fully working E-Commerce webstore with DW/BI capability. This version introduces the fully built data warehousing.
+
 ### Technologies Used:
 **Supabase | Fabric (Dataflow Gen2, M, DataLake, Warehouse) | n8n | Claude/Copilot + Power BI MCP | Power BI**
 
