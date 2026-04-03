@@ -4,6 +4,10 @@
 
 Showcasing the architecture of an ai generated dataset and fully working E-Commerce webstore with DW/BI capability. This version introduces the fully built data warehousing.
 
+**"Why have a data pipeline at all?"** is an excellent question. SaaS like Microsoft Fabric cost money that scales with the size of a business, what's the benefit?
+
+**The Answer:**  Data warehouses and pipelines bridge that gap of "We're sitting on a ton of data, but we can't get to it fast enough." They store reliable, simplified tables and typically conform to a STAR schema. They're designed to be as simple as possible, and meet the granularity and refresh needs of the business intelligence, accounting, marketing, and even cybersecurity teams.
+
 ### Technologies Used:
 **Supabase | Fabric (Dataflow Gen2, M, DataLake, Warehouse) | n8n | Claude/Copilot + Power BI MCP | Power BI**
 
