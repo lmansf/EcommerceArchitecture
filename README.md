@@ -2,11 +2,8 @@
 ## Purpose
 Showcasing the architecture of an ai generated dataset and fully working E-Commerce webstore. This version introduces the professional data pipeline and BI capabilities for the first time.
 ### Technologies Used:
-- Supabase
-- Fabric (Dataflow Gen2, M, DataLake, Warehouse)
-- n8n
-- Claude/Copilot + Power BI mcp
-- Power BI
+**Supabase | Fabric (Dataflow Gen2, M, DataLake, Warehouse) | n8n | Claude/Copilot + Power BI MCP | Power BI**
+
 <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/c9065d5b-199c-4382-a0f8-55349bf5d36a" />
 
  # Owl Park – Data Architecture
