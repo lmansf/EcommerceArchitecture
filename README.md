@@ -45,4 +45,15 @@ A real-time pull extracts the raw data into Microsoft Fabric, where it is proces
 The modeled data is pushed live to presentation layers for analysis:
 * **Power BI Reports:** Live BI Team Dashboards for Executive Analytics.
 * **Claude + PBI MCP Server:** AI-Assisted Analysis using natural language.
+Based on the following categories:
+- Business Goals
+- n8n "Engine" maintenance (improving performance & tuning)
+
+### Phase 5: Take Action
+- n8n schedules optimized to maximize the number of requests in a given pay cycle.
+- dynamic price agent tuned to more aggressively push prices, but stays safely within a fair price range governed by a critic agent based on real world data points.
+
+## Results
+- dynamic price agent impacts are coming soon
+- the n8n agents maximize token use each month, without hitting the limit. I did this with priotity on consumer agent (and sellout checker...), who run most often, followed by the twice daily dynamic price setter, then the once weekly price.
 
